@@ -1,0 +1,78 @@
+Automation Testing :
+-----------------------------
+Testing any application feature with the help of Automation tool 
+
+Automation Tool
+-------------------
+Sahi
+Sahi pro
+Appium
+Protector
+Selenium 
+
+Manual Testing DisAdv :
+----------------------------------
+1. required more resources 
+2.Time consuming 
+   Regression Testing --required more time /its time consuming 
+   CrossBrowser Testing -- Chrome 5 min ---> 25 min --Difficult and its time consuming 
+3.Test Cycle duration -increase 
+
+
+Automation Testing Adv
+---------------------------------
+1. required less resources 
+2.less time required 
+    Regression ---650 (Test Script =Test cases step --Code )--> 2 days 
+    CrossBowser Testing --2 min and easy 
+3.Test Cycle Duration -deacrease 
+
+================================================================
+Selenium :
+Why ?
+
+1. Open source -- no licenece required 
+2.support multiple lanaguages ---> Java ,C#,pearl,Rubby,Python ,JavaScript ....
+3. support multiple Operating System 
+4.CrossBrowser Testing - easy 
+
+Dis Advantage :
+---------------------
+1. We can automate only Web Based Application .--> standalone/Desktop we can not automate
+2.captcha ,Barcode -- we can not automate 
+3. file upload and Download - we can not handle using selenium ---> AutoIT, Robot class
+
+=========================================================
+
+Selenium WebDriver Arch 
+
+Search context (I)----> WebDriver (I)--->Remote WebDriver class (C) ---> Multiple Browser Driver classes (C)
+
+==========================================================================
+
+Project -- Maven -- Build Management Tool 
+
+src/main/java
+src/main/resources 
+src/test/java
+src/test/resources 
+pom.xml  -----> dependancy ---> Selenium / Executable setup --> WebDriverManager
+
+
+https://mvnrepository.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
