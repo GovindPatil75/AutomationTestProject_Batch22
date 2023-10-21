@@ -61,6 +61,38 @@ pom.xml  -----> dependancy ---> Selenium / Executable setup --> WebDriverManager
 
 https://mvnrepository.com/
 
+===================================================================
+
+Test cases --->
+Test cases--> Manually Test ---> Testing Jira Ready for demo -Review test cases with PO -->25 --5 TC Regression 2 CR
+
+=============================================
+
+
+
+webElement--- Anything on WebPage EX. Text field ,button ,link ,logo ,Image ,Text
+
+Locators -- we identify the webElement 
+
+8 Type 
+--------------
+1.Name 
+2.Id
+3.ClassName
+4.Xpath
+5.Tagname
+6.Css
+7.Linktext
+8.partaillinktext
+
+WebElement Email=driver.findElement(By.name("email"));
+Email.sendKeys("Test@gmail.com");
+
+WebElement password=driver.findElement(By.name("pass"));
+password.sendKeys("12345678");
+
+WebElement loginBtn=driver.findElement(By.name("login"));
+loginBtn.click();
 
 
 
