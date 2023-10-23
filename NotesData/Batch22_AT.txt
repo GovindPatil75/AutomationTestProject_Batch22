@@ -94,9 +94,13 @@ password.sendKeys("12345678");
 WebElement loginBtn=driver.findElement(By.name("login"));
 loginBtn.click();
 
+======================================================
+Id -- Locators WebElement Identify 
 
+WebElement Element =driver.findElement(By.id("Value"));
 
-
+WebElement Email=driver.findElement(By.Id("email"));
+Email.sendKeys("Test@gmail.com");
 
 
 
