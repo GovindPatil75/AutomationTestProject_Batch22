@@ -102,6 +102,28 @@ WebElement Element =driver.findElement(By.id("Value"));
 WebElement Email=driver.findElement(By.Id("email"));
 Email.sendKeys("Test@gmail.com");
 
+=======================================================
+Xpath Locators 
+
+Tagname == < after this EX . <input <a <button
+
+attributename="Attribute value" =EX =name="pass"
+
+>Text<
+EX = >Forgotten password?<
+
+Absloute Xpath :
+-----------------------
+Parent node ---immidiate child node ---->Element
+
+WebElement element=driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input"));
+A->B->C ->E ->D
+A->B-C->D
+Relative XPath 
+
+
+
+
 
 
 
