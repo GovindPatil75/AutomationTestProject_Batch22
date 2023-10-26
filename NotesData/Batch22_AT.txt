@@ -112,7 +112,7 @@ attributename="Attribute value" =EX =name="pass"
 >Text<
 EX = >Forgotten password?<
 
-Absloute Xpath :
+Absloute Xpath :(/)
 -----------------------
 Parent node ---immidiate child node ---->Element
 
@@ -120,6 +120,57 @@ WebElement element=driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/
 A->B->C ->E ->D
 A->B-C->D
 Relative XPath 
+
+=============================================
+Relative Xpath (//)
+
+-->Parent to any child /  Child 
+
+Xpath by Attribute :
+----------------------
+//tagname[@attribute name='attribute value']
+//input[@name='email']
+//input[@name='pass']
+WebElement Email=driver.findElement(By.xpath("//input[@name='email']"));
+
+WebElement password=driver.findElement(By.xpath("//input[@name='pass']"));
+
+WebElement LoginBtn=driver.findElement(By.xpath("//button[@name='login']"));
+
+
+Xpath By Text ()  ;
+===========================
+
+//tagname[text()='Text value']
+//a[text()='Forgotten password?']
+
+WebElement ForgottenPwd=driver.findElement(By.xpath("//a[text()='Forgotten password?']"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
