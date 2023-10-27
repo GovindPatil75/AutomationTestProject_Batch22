@@ -146,11 +146,36 @@ Xpath By Text ()  ;
 
 WebElement ForgottenPwd=driver.findElement(By.xpath("//a[text()='Forgotten password?']"));
 
+===============================================
+Xpath By contains() :
+---------------------
+attribute
+//tagname[contains(@attribute name,'static value')]
+//button[contains(@id,'u_0_5_')]
 
+WebElement loginBtn=driver.findElement(By.xpath("//button[contains(@id,'u_0_5_')]"));
 
+text :
+//tagname[contains(text(),'static value')]
+//a[contains(text(),'Forgotten ')]
 
+WebElement fp=driver.findElement(By.xpath("//a[contains(text(),'Forgotten ')]"));
 
+-------------------------------------------------
+Xpath By Index
 
+(xpath expression)[index]
+
+(//input[@type='text'])[3]
+
+WebElement Surname=driver.findElement(By.xpath("(//input[@type='text'])[3]"));
+Surname.action
+=====================================================
+
+List<WebElement> Elementlist=driver.findElements(By.xpath("//input[@type='text']"));
+Elementlist.size(); // count -7
+
+Elementlist.getindex(i).action
 
 
 
