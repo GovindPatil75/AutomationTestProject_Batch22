@@ -187,6 +187,7 @@ WebElement element=driver.findElement(By.xpath("Xpath Expression"));
 Select sel=new Select(element);
 
 sel.selectByIndex(7);
+
 ===============
 List<WebElement> list=sel.getOptions();
 
