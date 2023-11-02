@@ -201,8 +201,15 @@ for(int i=0;i<list.size();i++) {
 		}
 		==========================================
 		
+		SC ->WB,TS,JSE->RWC-> MBDC
+		How to Capture Screenshot (Full page )
 		
-		
+TakesScreenshot ts=driver;		//WebDriver driver 
+File src=ts.getscreenshotAs(outputType.File);	
+
+File destn=new File(location\\test.png);	
+
+FileUtils.copyFile(src,destn);
 		
 		
 		
