@@ -230,7 +230,8 @@ Ctrl+a ctrl+C  --Ctrl+v
 Actions act=new Actions(driver);
 act.movetoElement(element).click().build().perform();
 
-
+DragAndDrop 
+----------------
 
 
 
