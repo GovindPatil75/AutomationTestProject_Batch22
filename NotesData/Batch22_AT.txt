@@ -232,6 +232,47 @@ act.movetoElement(element).click().build().perform();
 
 DragAndDrop 
 ----------------
+git download ---> git bash --> remote repo project --clone --local repo 
+
+git clone remoteUrl
+----------------------------------------
+element.sendkeys("Test@gmail.com");
+
+Excel Sheet ---Test Data ---> read ---> provide WebElement 
+
+Apache POI --- 2 dependancy 
+
+String path="location.xlsx" // 
+
+FileInputStream fis=new FileInputStream(path);
+
+XSSFWorkbook wb=new XSSFWorkbook(fis);
+
+String Data=wb.getsheet("LoginTest").getrow(0).getcell(1).getStringcellvalue();
+
+weblement.sendKeys(Data);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
