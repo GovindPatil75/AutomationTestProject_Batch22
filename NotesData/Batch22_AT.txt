@@ -251,6 +251,22 @@ XSSFWorkbook wb=new XSSFWorkbook(fis);
 String Data=wb.getsheet("LoginTest").getrow(0).getcell(1).getStringcellvalue();
 
 weblement.sendKeys(Data);
+===========================================
+
+Alert : 
+
+simple alert -- warning --
+prompt Alert -- user input -sendkeys()
+Confirmation Alert -- 
+
+Alert alt =driver.switchto().Alert();
+alt.gettext(); // Alert text 
+
+alt.dismiss(); // cancel click
+alt.accept(); // Ok button 
+----------------------------
+
+
 
 
 
