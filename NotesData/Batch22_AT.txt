@@ -265,12 +265,20 @@ alt.gettext(); // Alert text
 alt.dismiss(); // cancel click
 alt.accept(); // Ok button 
 ----------------------------
+Child Browser Pop Up Window Handle ?
 
+driver.getwindowhandle(); // Id/Address --Parent window -- String
 
+driver.getwindowhandles(); // Id/Address --Parent +Child window -- Set<String>
 
+List<String> list=new ArrayList(refre);
 
+list.get(0); == Parent id 
+list.get(1); ==child id 
 
+driver.switchto().window(list.get(1)); // Switch Child Browser Window 
 
+driver.switchto().window(list.get(0)); // Switch Parent window 
 
 
 

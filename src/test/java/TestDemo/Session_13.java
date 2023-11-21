@@ -27,6 +27,9 @@ public class Session_13 {
 		//act.dragAndDrop(SrcElement, TargetEle).build().perform();
 		
 		dragAndDropAction(driver,SrcElement,TargetEle);
+		
+		Session_16.getalertHandler(driver).getText();
+		Session_16.getalertHandler(driver).accept();
 	}
 	
 	
