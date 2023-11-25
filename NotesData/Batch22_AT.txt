@@ -280,16 +280,31 @@ driver.switchto().window(list.get(1)); // Switch Child Browser Window
 
 driver.switchto().window(list.get(0)); // Switch Parent window 
 
+===============================================
 
+String ParentWID=driver.getwindowhandle();
 
+Set<String> ALLID=driver.getwindowhandles();
 
+Iterator<String> IT=ALLID.iterator();
 
+while(IT.hasNext()){
 
+String ChildWID=IT.next();
 
+if(!ParentWID.equals(ChildWID)){
 
+driver.switchto().window(ChildWID);
 
+}
 
+}
+==============================================
+JavaScripEXecutor js=driver;
 
+js.executeScript("window.scrollBy(0,500)","");
+
+js.executeScript("window.scrollBy(0,-500)","");
 
 
 
