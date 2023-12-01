@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T09:22:12 IST" name="Default suite" finished-at="2023-12-01T09:22:17 IST" duration-ms="4980">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T09:22:12 IST" name="Default test" finished-at="2023-12-01T09:22:17 IST" duration-ms="4980">
+      <class name="TestDemo.Test_NG_3">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestDemo.Test_NG_3@4fb3ee4e]" started-at="2023-12-01T09:22:12 IST" name="BM" finished-at="2023-12-01T09:22:16 IST" duration-ms="4578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="verifyTest3()[pri:0, instance:TestDemo.Test_NG_3@4fb3ee4e]" started-at="2023-12-01T09:22:16 IST" name="verifyTest3" finished-at="2023-12-01T09:22:16 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest3 -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestDemo.Test_NG_3@4fb3ee4e]" started-at="2023-12-01T09:22:16 IST" name="AM" finished-at="2023-12-01T09:22:17 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+      </class> <!-- TestDemo.Test_NG_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
