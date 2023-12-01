@@ -311,6 +311,14 @@ Scrolling WebElement
 
 js.executeScript("arguments[0].ScrollIntoView();"WebElement);
 
+==============================================
+TestNG -- Testing Framework /Test Managment Tool
+
+TestNG -NG -Next Genration 
+-------
+annoation ,Keyword --Testng.xml
+TestReport --html
+
 
 
 

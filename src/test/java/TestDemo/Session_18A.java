@@ -26,12 +26,12 @@ public class Session_18A {
         //Bottom-top
         //js.executeScript("window.scrollBy(0,-500)","");
         
-        WebElement element=driver.findElement(By.xpath("//li[text()='English (UK)']"));
+        WebElement EnglishUK=driver.findElement(By.xpath("//li[text()='English (UK)']"));
         
         //js.executeScript("arguments[0].scrollIntoView();", element);
         
         
-        ScrollByElement(driver,element);
+        ScrollByElement(driver,EnglishUK);
 	}
 
 	public static void ScrollByElement(WebDriver driver,WebElement element) {
