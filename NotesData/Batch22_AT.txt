@@ -318,6 +318,24 @@ TestNG -NG -Next Genration
 -------
 annoation ,Keyword --Testng.xml
 TestReport --html
+====================================================
+Regression Testing -- Suite -- 630  -- 4 QA -- R+CR
+
+Mini Regression -- Critical Regression TC ---> 155 ---> 130 AT
+
+---------------------------
+groups ---> divide ----> execution 
+
+100 --- > 75 R +25 CR
+
+Master suite.xml ---100
+
+Regression.xml --75
+Critical Regression.xml --25 
+
+R --R+CR
+
+
 
 
 
