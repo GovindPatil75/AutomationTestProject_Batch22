@@ -334,6 +334,21 @@ Regression.xml --75
 Critical Regression.xml --25 
 
 R --R+CR
+=======================================
+Cross Browser ---> App feature -- multiple Browser Test
+
+3 B --- 30 min --->
+
+Script ----> @Parameters ---> testng.xml ---->
+
+
+
+
+
+
+
+
+
 
 
 
