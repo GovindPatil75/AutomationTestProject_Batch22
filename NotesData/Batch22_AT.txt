@@ -341,8 +341,13 @@ Cross Browser ---> App feature -- multiple Browser Test
 
 Script ----> @Parameters ---> testng.xml ---->
 
+=================================================
 
+Assertion 
 
+result of an operation verify --- Assert /Hard Assert 
+
+Assert.assertequls(actual,expected); // PASS/FAIL
 
 
 
