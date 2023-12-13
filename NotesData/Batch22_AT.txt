@@ -349,6 +349,22 @@ result of an operation verify --- Assert /Hard Assert
 
 Assert.assertequls(actual,expected); // PASS/FAIL
 
+=========================================================
+
+Assert -Hard Assert 
+-------------------------
+- Result of an operation verify 
+-Assert class - call methods -- static 
+-Assert -- Fail --next test case steps -- abort
+- no call of assertAll()
+
+
+Soft Assert /Verify 
+---------------------------
+- Result of an operation verify 
+-we need to create Object of Soft Assert 
+-Soft Assert Fail --not abort test case steps execution -continue execution 
+-its mandatory to call assettAll() methods at the end of test case 
 
 
 
