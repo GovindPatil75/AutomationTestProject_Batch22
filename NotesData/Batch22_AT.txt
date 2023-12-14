@@ -366,6 +366,27 @@ Soft Assert /Verify
 -Soft Assert Fail --not abort test case steps execution -continue execution 
 -its mandatory to call assettAll() methods at the end of test case 
 
+=======================================
+POM with PageFactory
+
+Webpage=Pomclasses
+LoginWebPage =LoginPom
+HomePageWebPage=HomePagePom
+
+10 --10 
+------------------
+Test class --- PageFactory  
+
+
+
+
+
+
+
+
+
+
+
 
 
 

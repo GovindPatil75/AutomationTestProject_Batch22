@@ -44,7 +44,7 @@ public class Test_ngAssertTest {
 		
 		boolean value=EmailId.isEnabled();
 		
-		soft.assertTrue(true, "Verify Email Id Field ");
+		soft.assertTrue(value, "Verify Email Id Field ");
 		
 		soft.assertAll(); // Ommit 
 		
