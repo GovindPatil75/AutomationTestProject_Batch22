@@ -45,7 +45,7 @@ public class Session_17 {
 		
 		driver.switchTo().window(ParentWId); // Switch to Parent Browser Window 
 		
-		//driver.quit(); // current +All open window Close 
+		driver.quit(); // current +All open window Close 
 		
 	}
 

@@ -377,6 +377,66 @@ HomePageWebPage=HomePagePom
 ------------------
 Test class --- PageFactory  
 
+==============================================
+ABC ----4 QA --- common 
+
+QA1 -Local System
+QA2 -
+QA3 -
+QA4 -
+
+---------------------- ABC Repository Remote
+
+QA1 --- join --- Automation Test Eng 
+
+----> Automation Project repo url ---> 
+local system clone ---> Main Branch latest pull (Remote repo--local system) 
+--> new branch local branch 
+--> stag ---commit --push (local system --remote repo) -->PR raise --reviewer
+
+--->approve/comments ---approve --> main branch merge 
+
+========================================
+QA1
+Test2 ---> remote repo --access ---> clone ---import ---
+
+=========================================================
+
+iframe 
+
+we need to switch on frame 
+------------
+driver.switchto().frame(index);
+driver.switchto().frame(WebElement);
+driver.switchto().frame(id or name );
+
+-- Element identify --action 
+
+1.
+
+Mainpage --- >1st frame 
+
+driver.switchto().frame(index);
+
+Mainpage <--1st frame
+
+driver.switchto().deafultcontent();
+
+
+2. 
+Mainpage --->OutterFrame ->Innerframe
+
+driver.switchto().frame(index); // outterframe
+
+driver.switchto().frame(index); // innerframe
+
+Mainpage <---OutterFrame <-Innerframe
+
+
+driver.switchto().parentframe(); //OutterFrame <-Innerframe
+driver.switchto().deafultcontent(); //Mainpage <---OutterFrame
+
+
 
 
 
